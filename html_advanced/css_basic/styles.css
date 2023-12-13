@@ -1,0 +1,90 @@
+/* Apply flex box to both container tags */
+body {
+    display: flex;
+    flex-direction: column; /* Column for header, main, and footer */
+}
+main {
+    display: flex;
+    flex-direction: row; /* Row for article and aside */
+    flex:auto /*Automatic height and width */
+}
+/* Specify the width distribution for article and aside */
+article {
+    flex: 2; /* Take 2/3 of the width */
+    overflow-y: auto; /* Enable vertical scroll */
+
+}
+aside {
+    flex: 1; /* Takes 1/3 of the width */
+    overflow-y: auto; /* Enable vertical scroll */
+}
+
+/* Styling for logo */
+.logo {
+    font-size: 2em; /* The Size is Adjustitable */
+    margin-right: 10px; /* Add some spacing to the right */
+}
+
+/* Additional Styling */
+/* Example style for the article content */
+article {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0 0.1);
+}
+
+/* Example of style for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
