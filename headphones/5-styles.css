@@ -1,0 +1,283 @@
+body main{
+    display:flex;
+    height:auto;
+}
+  /*header section styles*/  
+
+.main-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    color: whitesmoke;
+    background-image: url("images/headphones_hero_1.jpg");
+}
+.nav-bar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 3px;
+    width:200vh;
+}
+.logo{
+    margin:0;
+}
+.nav-link{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:80vh;
+}
+
+ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width: 80vh;
+    list-style:none;
+}
+ 
+ul a:hover{
+    color:blueviolet
+}
+
+.header-doc{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+button{background-color:red;
+    border-radius:50px;
+    box-sizing:border-box;
+    color:whitesmoke;
+    border-color:none;
+    padding:15px 30px;
+    border:none;
+}
+button:hover{
+    color:blue;
+    opacity:0.9
+}
+.align{
+    display:flex;
+    flex-direction:row;
+    /*justify-content:center;
+    align-items:center;*/
+    width:90vh;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+/*@media screen and (max-width:480px)
+{
+    header{
+        display:flex;
+        flex-direction:column;
+        align-items:flex-end;
+        width:100%;
+        background-color: #333;
+        position:absolute;
+        top:60px;
+        right:0;
+        padding:10px;
+}
+}*/
+/*What we do*/
+.holberton_icon h2{
+    display:flex;
+     justify-content: center;
+     align-items:center;
+}
+.holberton-icons{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    font-size:0.6rem;
+}
+h2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.h2 p{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.holberton_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.holberton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+@font-face {
+    font-family: 'holberton_school-icon';
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+      url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+      url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+      url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .holberton_school-icon-arrow_1:before {
+    content: "\e900";
+  }
+  .holberton_school-icon-arrow_2:before {
+    content: "\e901";
+  }
+  .holberton_school-icon-arrow_3:before {
+    content: "\e902";
+  }
+  .holberton_school-icon-arrow_4:before {
+    content: "\e903";
+  }
+  .holberton_school-icon-arrow_5:before {
+    content: "\e904";
+  }
+  .holberton_school-icon-check:before {
+    content: "\e905";
+  }
+  .holberton_school-icon-ic_bag:before {
+    content: "\e906";
+  }
+  .holberton_school-icon-ic_cart:before {
+    content: "\e907";
+  }
+  .holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+  }
+  .holberton_school-icon-ic_hearing:before {
+    content: "\e909";
+    color:red;
+    font-size:4rem;
+  }
+  .holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+  }
+  .holberton_school-icon-ic_laptop:before {
+    content: "\e90b";
+  }
+  .holberton_school-icon-ic_money:before {
+    content: "\e90c";
+  }
+  .holberton_school-icon-ic_music:before {
+    content: "\e90d";
+    color:red;
+    font-size:4rem;
+  }
+  .holberton_school-icon-ic_sound:before {
+    content: "\e90e";
+    color:red;
+    font-size:4rem;
+  }
+  .holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+  }
+  .holberton_school-icon-ic_video:before {
+    content: "\e910";
+    color:red;
+    font-size:4rem;
+  }
+  .holberton_school-icon-menu:before {
+    content: "\e911";
+  }
+  .holberton_school-icon-search_1:before {
+    content: "\e912";
+  }
+  .holberton_school-icon-search_2:before {
+    content: "\e913";
+  }
+  .holberton_school-icon-star:before {
+    content: "\e914";
+  }
+.our-results{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: large;
+}
+ .image-container{
+    position: relative;
+    display: inline-block;
+  }
+  .text-overlay{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:darkblue;
+  }
+  .text-overlay h6{
+    font-size:18px;
+    margin-bottom: 5px;
+    font-color:black
+
+  }
+  .text-overlay p{
+    font-size:14;
+    margin-top: 0;
+    font-color:black;
+
+  }
+  /*start of contact us section*/
+  .contact-section{
+    background-color: whitesmoke;
+    padding:20px;
+    border-radius: 8px;
+  }
+  .contact-section h4{
+    text-align:center;
+    margin-bottom: 15px;
+     display:flex;
+    flex-direction:column;
+    list-style:none;
+    padding:0;
+  }
+ 
+  .contact-section button{
+    display:block;
+    margin: 0 auto;
+  }
+.footer-icons{
+display:flex;
+flex-direction:row;
+justify-content:flex-start;
+}
+.legacy-icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
