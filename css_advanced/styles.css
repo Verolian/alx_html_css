@@ -1,0 +1,41 @@
+:root{
+    --primary-color:#FFFFFF;
+   --secondary-color:violet;
+
+   --spacing-xl:150px;
+   --spacing-lg:100px;
+   --spacing-md:50px;
+   --spacing-s:25px;
+   --spacing-xs:15px;
+   --spacing-xxs:5px;
+
+   --font-size-sm:15px;
+   --font-size-md:30px;
+   --font-size-l:45px;
+
+   --font-family:
+}
+.header{
+    display:flex;
+    justify-content: flex-end;
+    width: 1103.41px;
+   height: 29.46px;
+   top: 35.02px;
+   left: 171.59px;
+   padding: 0px, 0px, 0px, 0px;
+   img src url(images/logo.png);
+}
+.nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+
+}
+.Footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    background-color: black;
+    height:70vh;
+}
